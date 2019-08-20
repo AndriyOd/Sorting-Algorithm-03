@@ -19,12 +19,22 @@ int main()
 
 	int ar1[10] = { 1,2,3,4 };
 	std::string strUserName;
+	std::string strUserSurname;
 
-	// ---- Let's ask user for his name and say 'Hello' to him
+	// ---- Let's ask user for his name and say 'Hello' to him ----
 	//std::cout << "Hello, World!\n\n";
 	std::cout << "Hello! What is your name?\n";
 	std::getline(std::cin, strUserName);
-	std::cout << "Hello, " << strUserName << "!\n\n";
+	//std::cout << "Hello, " << strUserName << "!\n";
+
+
+	// ---- Let's ask user for his surname and say 'Hello' to him ----
+	std::cout << "Hello! What is your surname?\n";
+	std::getline(std::cin, strUserSurname);
+	//std::cout << "Hello, " << strUserSurname << "!\n";
+
+	// ---- Finally, let's say 'Hello' to him ----
+	std::cout << "Hello, " << strUserName << " " << strUserSurname << "!\n\n";
 
 
 	//Printing the arrray
