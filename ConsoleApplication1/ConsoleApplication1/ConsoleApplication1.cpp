@@ -13,6 +13,8 @@ int main()
 	int iArraySize = 8;
 	int iMin = 0;
 	int i = 0;
+	int j = 0;
+	int k = 0;
 	int iTemp = 0;
 	int n = 0;
 
@@ -75,16 +77,16 @@ int main()
 		//just delete the previous line
 		//--- Let's add some extra lines to view interim information ---
 		//---------------- Beginning ----------------
-		std::cout << "Step " <<iLowBorder<< "\n";
-		std::cout << "ar[" << n <<"] = "<<ar1[iLowBorder]<<" was the Min\n";
+		std::cout << "Step " << iLowBorder << "\n";
+		std::cout << "ar[" << n << "] = " << ar1[iLowBorder] << " was the Min\n";
 
 		//Printing the arrray
 		std::cout << "And now ar1[" << iArraySize << "]={";
 		for (i = 0; i < iArraySize; i++)
 		{
-		std::cout << ar1[i];
-		if (i < iArraySize - 1)
-		std::cout << ",";
+			std::cout << ar1[i];
+			if (i < iArraySize - 1)
+				std::cout << ",";
 		}
 		std::cout << "}\n\n";
 		//---------------- End ----------------
