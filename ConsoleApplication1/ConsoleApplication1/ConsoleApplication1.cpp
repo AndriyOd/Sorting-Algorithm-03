@@ -22,6 +22,13 @@ int main()
 	int ar1[10] = { 1,2,3,4 };
 	std::string strUserName;
 
+	// ---- FINAL REVISION ----
+	std::cout << "******************************\n";
+	std::cout << "******* ARRAY SORTING ********\n";
+	std::cout << "******* FINAL REVISION *******\n";
+	std::cout << "******************************\n\n\n";
+
+
 	// ---- Let's ask user for his name and say 'Hello' to him
 	//std::cout << "Hello, World!\n\n";
 	std::cout << "Hello! What is your name?\n";
@@ -39,7 +46,7 @@ int main()
 	}
 	std::cout << "}\n\n";
 
-	// Input the elements of the array ar1[4]
+	// Input the elements of the array ar1[8]
 	std::cout << "Now input the elements of the array:\n";
 	for (i = 0; i < iArraySize; i++)
 	{
@@ -81,7 +88,7 @@ int main()
 			ar1[n] = iTemp;
 		}
 
-		/*
+		
 		//just delete the previous line
 		//--- Let's add some extra lines to view interim information ---
 		//---------------- Beginning ----------------
@@ -99,7 +106,7 @@ int main()
 		std::cout << "}\n\n";
 		//---------------- End ----------------
 		//just delete the next line
-		*/
+		
 
 		iLowBorder++;
 	}
