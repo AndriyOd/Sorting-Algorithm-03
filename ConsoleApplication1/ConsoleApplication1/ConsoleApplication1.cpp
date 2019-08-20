@@ -71,7 +71,7 @@ int main()
 			ar1[n] = iTemp;
 		}
 
-		/*
+		
 		//just delete the previous line
 		//--- Let's add some extra lines to view interim information ---
 		//---------------- Beginning ----------------
@@ -89,7 +89,7 @@ int main()
 		std::cout << "}\n\n";
 		//---------------- End ----------------
 		//just delete the next line
-		*/
+		
 
 		iLowBorder++;
 	}
