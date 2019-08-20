@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include <string>
 
 
 int main()
@@ -17,7 +18,14 @@ int main()
 	int n = 0;
 
 	int ar1[10] = { 1,2,3,4 };
-	std::cout << "Hello, World!\n\n";
+	std::string strUserName;
+
+	// ---- Let's ask user for his name and say 'Hello' to him
+	//std::cout << "Hello, World!\n\n";
+	std::cout << "Hello! What is your name?\n";
+	std::getline(std::cin, strUserName);
+	std::cout << "Hello, " << strUserName << "!\n\n";
+
 
 	//Printing the arrray
 	std::cout << "Initially array ar1[" << iArraySize << "]={";
